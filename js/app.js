@@ -20,7 +20,6 @@ const vueApp = new Vue({
           });
       }
       this.listaMail = tempList;
-      
     },
   },
 });

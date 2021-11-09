@@ -19,9 +19,9 @@
             <div id="app">
                 <h1>Lista di mail</h1>
                 <button @click="getMailList">Genera mail</button>
-                <ol>
+                <ul>
                     <li v-for="(item, index) of listaMail">{{item.mail}}</li>
-                </ol>
+                </ul>
 
             </div>
         </main>
